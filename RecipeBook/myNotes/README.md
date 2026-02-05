@@ -31,6 +31,65 @@ Tablet Version
 
 
 
+Learnings in this project are as follows -
+
+
+# **how do I paste image in readme.md file from VS code editor**
+
+* To include an image in your `README.md` file from VS Code, follow these steps:
+
+  ### 1. **Add the Image to Your Project Folder**
+  * Place the image file in your project directory (e.g., in an `assets` or `images` folder).
+
+  ### 2. **Reference the Image in** `README.md`
+  * Use Markdown syntax to link the image. For example:
+
+    ```markdown
+    ![Alt text](relative/path/to/image.png)
+    ```
+  * Replace `relative/path/to/image.png` with the relative path to your image file from the location of your `README.md` file.
+  * BUT MOST IMPORTANTLY YOU SHOULD TYPE IT IN CODE FILE , THEN PASTE IT ON README FILE , BECAUSE IT’S NOT EASY TO EDIT ABOVE CODE IN README . ALSO TO SEE CHANGES GOTO README FILE IN FOLDER AND RIGHT CLICK AND SELECT PREVIEW OPTION.
+
+  Example:
+
+  ```markdown
+  ![Delicious Recipe](images/recipe-example.png)
+  ```
+
+  ### 3. **Paste Image Directly into VS Code**
+  * If you have an image copied to your clipboard, you can use an extension like **"Paste Image"** in VS Code:
+
+    
+    1. Install the [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushanshitiancai.vscode-paste-image) extension.
+    2. In your `README.md`, position the cursor where you want the image reference.
+    3. Paste the image (`Ctrl+V` or `Cmd+V`).
+    4. The extension will save the image to a predefined folder (e.g., `images`) and automatically insert the Markdown syntax for the image.
+
+  ### 4. **Preview the Markdown**
+  * Right-click in your `README.md` file and select **"Open Preview"** or press `Ctrl+Shift+V` (Windows/Linux) or `Cmd+Shift+V` (Mac) to see how the image appears.
+
+  Let me know if you need more help!
+
+
+# How to create a new repository for any new project
+
+ ![New](assets/new.png)
+
+ ![Clone](assets/clone.png "left-50")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
