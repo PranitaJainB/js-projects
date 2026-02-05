@@ -1,8 +1,16 @@
-# React + Vite
+![alt text](image-1.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](image.png)
 
-Currently, two official plugins are available:
+### Validation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+
+### Figma Design Link
+
+[View Figma Design](https://www.figma.com/community/file/1349347949687912630/contact-form-page)
+
+
