@@ -1,2 +1,2 @@
-# js-projects
-A curated set of JavaScript mini-projects designed to demonstrate real-world frontend fundamentals such as DOM updates, form validation, event delegation, and modular code structure.
+# frontend-projects
+A collection of modern, responsive frontend projects focused on UI, performance, and real-world user experience.
