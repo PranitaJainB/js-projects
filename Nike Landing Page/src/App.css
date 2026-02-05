@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.productPage{
+    display: flex;
+/* width: 1400px; */
+padding:  0 5px;
+flex-direction: column;
+align-items: center;
+gap: 80px;
+background: #f9a7a7;
+margin: auto;
+
+width: 100vw;
+height: 100vh;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+
+    width: 100%;
+height: 72px;
+/* border: 1px solid #000; */
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 0 5px;
+}
+
+
+.brandLogo{
+    width: 76px;
+height: 42.75px;
+flex-shrink: 0;
+  margin-left: 85px;  /* X from Figma */
+  margin-top: 15px;   /* Y from Figma */
+}
+
+
+.buttons{
+    display: inline-flex;
+    padding: 6px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #D01C28;
+}
+
+
+.Login{
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.Nav{
+    display: inline-flex;
+align-items: flex-start;
+gap: 24px;
+}
+
+
+.navlink{
+    display: flex;
+width: 46px;
+height: 24px;
+justify-content: center;
+align-items: center;
+}
+
+.navlink-text{
+    color: #2E2E2E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.frame2{
+    display: flex;
+align-items: center;
+/* margin: 152px;
+width: 1125px;
+height: 613px; */
+
+}
+
+
+.frame1{
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 36px;
+width: 595px;
+
+}
+
+
+
+.Heading{
+    color: #000;
+font-family: Poppins;
+font-size: 108px;
+font-style: normal;
+font-weight: 800;
+line-height: 102px; /* 94.444% */
+}
+
+.description{
+  color:  #181717;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 404px;
+height: 91px;
+}
+
+.shoeImage{
+    /* width: 830px;
+    height: 730px; */
+
+
+}
+
+
+.buttonGrp{
+    display: flex;
+align-items: flex-start;
+gap: 40px;
+}
+
+
+.shop-now{
+    display: flex;
+padding: 6px 16px;
+align-items: flex-start;
+gap: 10px;
+background: #D01C28;
+height :100%
+}
+
+
+.shop-now label{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.category{
+    display: flex;
+    display: flex;
+    padding: 6px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #000;
+}
+
+.category label{
+    color: var(--GRAY, #5A5959);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.shop-online{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px; 
+}
+
+.shop-online label{
+    color: var(--GRAY, #5A5959);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.shop-online-img{
+    
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.shop-online-img img{
+    width: 32px;
+height: 32px;
+}
